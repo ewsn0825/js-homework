@@ -1,8 +1,3 @@
-const user = {
-  id: "asd@naver.com",
-  pw: "spdlqj123!@",
-};
-
 /*
 
 1. email 정규표현식을 사용한 validation
@@ -27,8 +22,14 @@ const user = {
 // input.classList.add('is-active');
 // input.classList.remove('is-active');
 
-//토글
-//classList.toggle()
+
+const user = {
+  id: "asd@naver.com",
+  pw: "spdlqj123!@",
+};
+
+
+//validation 함수
 
 function emailReg(text) {
   const re =
@@ -64,7 +65,6 @@ email.addEventListener("input", function () {
     emailPass = false;
     throw new Error("아이디는 이메일 형식으로 입력해주세요.");
   }
-
 });
 
 //패스워드 validation
