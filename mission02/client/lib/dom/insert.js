@@ -1,4 +1,5 @@
 
+
 function insertBefore(node,text){
   if(typeof node === 'string') node = getNode(node);
   

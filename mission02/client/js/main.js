@@ -1,3 +1,5 @@
+import {data} from './data.js'
+import {getNode,getNodes,attr,addClass,removeClass} from '../lib/dom/index.js'
 /* 
 
 1. 클릭 이벤트 활성화
